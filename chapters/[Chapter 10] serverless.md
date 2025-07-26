@@ -14,13 +14,13 @@ In the last few years, various open source frameworks for serverless computing g
 According to a [2018 NewStack serverless survey](https://thenewstack.io/guide-to-serverless-technologies-free-ebook-on-the-new-stack/), Kubeless and OpenFaaS led the way in terms of popularity, closely followed by Apache OpenWhisk. In terms of Github interactions and forum activity, NewStack's survey seem to be fairly accurate. The analysts at [Winder also did an independent assessment](https://winderresearch.com/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more/) and concluded that OpenWhisk was slightly more popular than OpenFaaS. 
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/v1.1/images/Draft/serverless-survey.png" height="500">
+  <img src="../images/Draft/serverless-survey.png" height="500">
 </p>
 
 When Leverege began to evaluate these tools, it was helpful to orient the landscape in the following manner: 
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/v1.1/images/Draft/serverless-comparison.jpg" height="300">
+  <img src="../images/Draft/serverless-comparison.jpg" height="300">
 </p>
 
 Because our infrastructure utilized Kubernetes heavily, most of our experiments focused on comparing Knative and OpenFaaS. If you are looking for a product that is more of a Lambda replacement, you may want to start the evaluation process from the right (above). 

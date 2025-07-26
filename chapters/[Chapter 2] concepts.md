@@ -14,7 +14,7 @@ Master components globally monitor the cluster and respond to cluster events. Th
 - **cloud-controller-manager**: interacts with the underlying cloud provider 
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%202/Cluster.jpg" height="300">
+  <img src="../images/Chapter%202/Cluster.jpg" height="300">
 </p>
 
 Image Credit: [Linux.com](https://www.linux.com/news/learn/chapter/intro-to-kubernetes/2017/4/what-makes-kubernetes-cluster)
@@ -30,7 +30,7 @@ Unlike Master components that usually run on a single node (unless High Availabi
 Before jumping into Kubernetes workloads (Pods, Controllers, etc.), it’s important to understand Kubernetes's declarative model. Kubernetes actually also has imperative modes, but we will focus on the declarative model and desired states. If you want to learn more, Sebastien Goasguen, the Kubernetes lead at Bitnami, has a great [Medium article](https://medium.com/bitnami-perspectives/imperative-declarative-and-a-few-kubectl-tricks-9d6deabdde) on the difference between the imperative vs. declarative modes. 
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%202/States.jpg" height="300">
+  <img src="../images/Chapter%202/States.jpg" height="300">
 </p>
 
 Image Credit: The Kubernetes Book
@@ -46,7 +46,7 @@ Kubernetes workloads are divided into two major components: pods (the basic buil
 A Pod for Kubernetes is what a container is for Docker: the smallest and simplest unit in its object model. It’s helpful to conceptualize Pods as a single instance of an application—or a container. In reality, a Pod encapsulates one or more containers as well as storage resources, an IP address, and rules on how the container(s) should run.
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%202/Pods.jpg" height="300">
+  <img src="../images/Chapter%202/Pods.jpg" height="300">
 </p>
 
 Image Credit: [Kubernetes.io](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)

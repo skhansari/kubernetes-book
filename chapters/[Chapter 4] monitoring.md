@@ -5,7 +5,7 @@ One of the downsides of microservice architecture is increased complexity in mon
 In this chapter, we’ll examine some of the native tools Kubernetes provides as well as some Google Cloud Platform (GCP)-specific and open-source tools that we’ve found useful in production. Please note that this chapter is by no means a comprehensive overview of all available monitoring solutions for Kubernetes users. However, a combination of StackDriver and Prometheus/Grafana have proved to be a robust and reliable tool for our IoT deployments on Google Kubernetes Engine (GKE).
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%204/ToolSurvey.jpg" height="300">
+  <img src="../images/Chapter%204/ToolSurvey.jpg" height="300">
 </p>
 
 Image Credit: The New Stack

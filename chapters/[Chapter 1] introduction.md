@@ -7,7 +7,7 @@ Since Kubernetes was open-sourced and managed by Cloud Native Computing Foundati
 Docker and Kubernetes are complementary technologies. When Kubernetes orchestrates a new deployment of a container, it will instruct Docker to fire up specified containers. The key advantage of Kubernetes is that it will automatically determine how to schedule and distribute pods (we will go over the terminology shortly), instead of having a DevOps engineer manually asking Docker to do these tasks.
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%201/K8Docker.jpg" height="150">
+  <img src="../images/Chapter%201/K8Docker.jpg" height="150">
 </p>
 
 **Kubernetes is the orchestrator, and Docker is the container runtime engine.**
@@ -16,7 +16,7 @@ Docker and Kubernetes are complementary technologies. When Kubernetes orchestrat
 With [Docker now natively supporting Kubernetes](https://www.docker.com/kubernetes), the debate between Kubernetes vs. Docker Swarm has now largely been reduced to personal preference. However, if you are starting from scratch, you may want to read up on how each of these container orchestration solutions differ in their mission, and also how they play well with each other.
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%201/DockerK8Mesos.png" height="300">
+  <img src="../images/Chapter%201/DockerK8Mesos.png" height="300">
 </p>
 
 Image Credit - [Mesosphere](https://mesosphere.com/blog/docker-vs-kubernetes-vs-apache-mesos/)
@@ -32,7 +32,7 @@ Since then, Docker has become more than a mere Docker file format provider. It h
 No other company can match Google's extensive experience running billions of containers. So when Google decided to donate Kubernetes—based on their proprietary tool called Borg—  to Cloud Native Computing Foundation (CNCF) in 2014, Kubernetes quickly became the de facto standard interface to abstract away the underlying infrastructure. 
 
 <p align="center"> 
-  <img src="https://github.com/Leverege/kubernetes-book/blob/master/images/Chapter%201/Survey.jpg" height="500">
+  <img src="../images/Chapter%201/Survey.jpg" height="500">
 </p>
 
 Image Credit - [NewStack](https://thenewstack.io/data-says-kubernetes-deployment-patterns/)
